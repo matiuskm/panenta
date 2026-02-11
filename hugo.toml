@@ -1,0 +1,4 @@
+baseURL = 'https://panenta.com/'
+languageCode = 'en-us'
+title = 'Panenta Organika'
+theme = "PaperMod"

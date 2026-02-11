@@ -1,0 +1,17 @@
+# Hugo build output
+/public/
+/resources/_gen/
+
+# Hugo cache
+.hugo_build.lock
+
+# OS nonsense
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Node (kalau pakai tools tambahan)
+node_modules/
