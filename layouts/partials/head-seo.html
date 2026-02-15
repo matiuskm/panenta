@@ -12,10 +12,14 @@
   {{- end -}}
 {{- end -}}
 
-{{- $canonical := .Permalink -}}
 {{- $ogImage := "/images/logo-panenta.png" -}}
 {{- with .Params.og_image -}}
   {{- $ogImage = . -}}
+{{- end -}}
+
+{{- $canonical := .Permalink -}}
+{{- if .IsHome -}}
+  {{- $canonical = site.BaseURL -}}
 {{- end -}}
 
 <title>{{ $title }}</title>
