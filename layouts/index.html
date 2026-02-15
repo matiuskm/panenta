@@ -1,0 +1,156 @@
+{{ define "main" }}
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-grid">
+
+    <div class="hero-copy">
+      <p class="eyebrow">{{ .Site.Title }}</p>
+
+      <h1 class="display">{{ i18n "hero_title" }}</h1>
+      <p class="lead">{{ i18n "hero_desc" }}</p>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ relLangURL "/contact/" }}">
+          {{ i18n "cta_request" }}
+        </a>
+
+        <a class="btn btn-ghost" href="{{ relLangURL "/services/" }}">
+          {{ i18n "cta_view_services" }}
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="/images/hero-supply.webp" alt="Panenta supply" />
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ABOUT -->
+<section class="section">
+  <div class="container about-grid">
+
+    <div>
+      <h2 class="h2">{{ i18n "about_title" }}</h2>
+      <p class="muted">{{ i18n "about_desc" }}</p>
+    </div>
+
+    <div class="about-img">
+      <img src="/images/warehouse.webp" alt="Supply warehouse">
+    </div>
+
+  </div>
+</section>
+
+
+<!-- VISION MISSION -->
+<section class="section">
+  <div class="container">
+
+    <div class="section-head center">
+      <h2 class="h2">{{ i18n "vision_title" }}</h2>
+      <p class="muted">{{ i18n "vision_sub" }}</p>
+    </div>
+
+    <div class="vm-grid">
+
+      <div class="vm-card">
+        <div class="vm-icon">🌱</div>
+        <h3 class="h3">{{ i18n "vision_label" }}</h3>
+        <p class="muted">{{ i18n "vision_text" }}</p>
+      </div>
+
+      <div class="vm-card">
+        <div class="vm-icon">🤝</div>
+        <h3 class="h3">{{ i18n "mission_label" }}</h3>
+
+        <ul class="vm-list">
+          <li>{{ i18n "mission_1" }}</li>
+          <li>{{ i18n "mission_2" }}</li>
+          <li>{{ i18n "mission_3" }}</li>
+          <li>{{ i18n "mission_4" }}</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- SERVICES -->
+<section class="section">
+  <div class="container">
+
+    <div class="section-head">
+      <h2 class="h2">{{ i18n "services_title" }}</h2>
+      <p class="muted">Structured sourcing and coordination support.</p>
+    </div>
+
+    <div class="cards flow">
+      <article class="card">
+        <h3 class="h3">{{ i18n "services_trading" }}</h3>
+        <p class="muted">{{ i18n "services_trading_desc" }}</p>
+      </article>
+
+      <article class="card">
+        <h3 class="h3">{{ i18n "services_cultivation" }}</h3>
+        <p class="muted">{{ i18n "services_cultivation_desc" }}</p>
+      </article>
+
+      <article class="card">
+        <h3 class="h3">{{ i18n "services_procurement" }}</h3>
+        <p class="muted">{{ i18n "services_procurement_desc" }}</p>
+      </article>
+
+      <article class="card">
+        <h3 class="h3">{{ i18n "services_industry" }}</h3>
+        <p class="muted">{{ i18n "services_industry_desc" }}</p>
+      </article>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- COMMODITIES IMAGE STRIP -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="h2">{{ i18n "commodity_title" }}</h2>
+      <p class="muted">Key commodities we help supply</p>
+    </div>
+
+    <div class="commodity-grid">
+      <img src="/images/commodities/chili.webp">
+      <img src="/images/commodities/onion.webp">
+      <img src="/images/commodities/casava.webp">
+      <img src="/images/commodities/vegetables.webp">
+      <img src="/images/commodities/fruits.webp">
+    </div>
+  </div>
+</section>
+
+
+<!-- CTA -->
+<section class="section">
+  <div class="container">
+    <div class="cta-strip">
+      <div class="cta-strip-inner">
+        <div>
+          <h2 class="h2">{{ i18n "cta_bottom" }}</h2>
+          <p class="muted">{{ i18n "cta_bottom_desc" }}</p>
+        </div>
+
+        <a class="btn btn-primary" href="{{ relLangURL "/contact/" }}">
+          {{ i18n "cta_request" }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,39 @@
+{{- $title := .Title -}}
+{{- if .IsHome -}}
+  {{- $title = site.Title -}}
+{{- end -}}
+
+{{- $desc := "" -}}
+{{- with .Params.description -}}
+  {{- $desc = . -}}
+{{- else -}}
+  {{- with site.Params.description -}}
+    {{- $desc = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $canonical := .Permalink -}}
+{{- $ogImage := "/images/logo-panenta.png" -}}
+{{- with .Params.og_image -}}
+  {{- $ogImage = . -}}
+{{- end -}}
+
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+<link rel="canonical" href="{{ $canonical }}">
+
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:url" content="{{ $canonical }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:image" content="{{ $ogImage | absURL }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $ogImage | absURL }}">
+
+{{- with site.Params.keywords -}}
+<meta name="keywords" content="{{ delimit . ", " }}">
+{{- end -}}

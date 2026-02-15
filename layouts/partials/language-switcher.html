@@ -1,0 +1,8 @@
+<div class="lang">
+  {{ $current := .Site.Language.Lang }}
+  {{ range .AllTranslations }}
+    <a class="lang-link {{ if eq .Site.Language.Lang $current }}is-active{{ end }}" href="{{ .RelPermalink }}">
+      {{ .Site.Language.LanguageName }}
+    </a>
+  {{ end }}
+</div>

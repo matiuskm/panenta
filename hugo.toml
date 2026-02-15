@@ -2,3 +2,32 @@ baseURL = 'https://panenta.com/'
 languageCode = 'en-us'
 title = 'Panenta Organika'
 theme = "PaperMod"
+defaultContentLanguage = "id"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+canonifyURLs = true
+
+[params]
+description = "Panenta Organika is a commodity supply and sourcing partner connecting farmers, suppliers, and industries."
+keywords = ["commodity supply", "fresh produce", "sourcing", "procurement", "agribusiness", "FMCG", "HoReCa", "Indonesia"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[languages]
+  [languages.id]
+    languageName = "ID"
+    weight = 1
+    contentDir = "content/id"
+
+  [languages.en]
+    languageName = "EN"
+    weight = 2
+    contentDir = "content/en"

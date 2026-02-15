@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://panenta.com/sitemap.xml

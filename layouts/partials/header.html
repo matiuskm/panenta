@@ -1,0 +1,62 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ .Site.Home.RelPermalink }}">
+      <img src="/images/logo-panenta.png" alt="{{ .Site.Title }}" class="brand-logo" />
+      <span class="brand-text">
+        <span class="brand-name">{{ .Site.Title }}</span>
+        <span class="brand-sub">
+          {{ i18n "brand_sub" | default "Fresh commodities & sourcing partner" }}
+        </span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a class="nav-link" href="{{ (site.GetPage "/").RelPermalink }}">{{ i18n "nav_home" | default "Home" }}</a>
+      <a class="nav-link" href="{{ relLangURL "/about/" }}">{{ i18n "nav_about" | default "About" }}</a>
+      <a class="nav-link" href="{{ relLangURL "/services/" }}">{{ i18n "nav_services" | default "Services" }}</a>
+      <a class="nav-link" href="{{ relLangURL "/contact/" }}">{{ i18n "nav_contact" | default "Contact" }}</a>
+    </nav>
+
+    <div class="header-actions">
+      {{ partial "language-switcher.html" . }}
+
+      <!-- Desktop CTA only (di mobile kita pindahin ke drawer) -->
+      <a class="btn btn-primary header-cta" href="{{ relLangURL "/contact/" }}">
+        {{ i18n "cta_get_quote" | default "Request a Quote" }}
+      </a>
+
+      <button class="icon-btn" type="button" aria-label="Toggle menu" aria-expanded="false" data-mobile-toggle>
+        <span class="icon-btn-bar"></span>
+        <span class="icon-btn-bar"></span>
+        <span class="icon-btn-bar"></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-nav" data-mobile-nav hidden>
+    <div class="container mobile-nav-inner">
+      <a class="nav-link" href="{{ (site.GetPage "/").RelPermalink }}">{{ i18n "nav_home" | default "Home" }}</a>
+      <a class="nav-link" href="{{ relLangURL "/about/" }}">{{ i18n "nav_about" | default "About" }}</a>
+      <a class="nav-link" href="{{ relLangURL "/services/" }}">{{ i18n "nav_services" | default "Services" }}</a>
+      <a class="nav-link" href="{{ relLangURL "/contact/" }}">{{ i18n "nav_contact" | default "Contact" }}</a>
+
+      <!-- Mobile CTA -->
+      <a class="btn btn-primary mobile-cta" href="{{ relLangURL "/contact/" }}">
+        {{ i18n "cta_get_quote" | default "Request a Quote" }}
+      </a>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const btn = document.querySelector("[data-mobile-toggle]");
+      const nav = document.querySelector("[data-mobile-nav]");
+      if (!btn || !nav) return;
+      btn.addEventListener("click", () => {
+        const expanded = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", String(!expanded));
+        nav.hidden = expanded;
+      });
+    })();
+  </script>
+</header>

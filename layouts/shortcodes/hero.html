@@ -1,0 +1,27 @@
+<section class="hero">
+  <div class="container hero-grid">
+
+    <div class="hero-copy">
+      <p class="eyebrow">{{ .Site.Title }}</p>
+
+      <h1 class="display">{{ i18n "hero_title" }}</h1>
+
+      <p class="lead">{{ i18n "hero_desc" }}</p>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ relLangURL "/contact/" }}">
+          {{ i18n "cta_request" | default "Request a Quote" }}
+        </a>
+
+        <a class="btn btn-ghost" href="{{ relLangURL "/services/" }}">
+          {{ i18n "cta_view_services" | default "View Services" }}
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="/images/hero-supply.webp" alt="{{ .Site.Title }} hero" loading="eager" />
+    </div>
+
+  </div>
+</section>
