@@ -2,6 +2,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 {{ partial "head-seo.html" . }}
+{{ partial "schema-org.html" . }}
+{{ if .IsHome }}{{ partial "schema-localbusiness.html" . }}{{ end }}
 
 {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />

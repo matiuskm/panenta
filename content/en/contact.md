@@ -7,6 +7,6 @@ description: "Contact Panenta Organika for supply and sourcing."
 
 Please share: **items, grade/spec, volume, location, and schedule**.
 
-- WhatsApp: **+62XXXXXXXXXX**
+- WhatsApp: **+62818694233**
 - Email: **hello@panenta.com**
-- Location: **(add location)**
+- Lokasi: **Jakarta, Indonesia**

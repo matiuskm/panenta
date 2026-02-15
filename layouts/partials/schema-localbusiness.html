@@ -1,0 +1,18 @@
+{{- $url := site.BaseURL -}}
+{{- $logo := "/images/logo-panenta.png" | absURL -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Panenta Organika",
+  "url": "{{ $url }}",
+  "image": "{{ $logo }}",
+  "description": "{{ site.Params.description | default "Commodity supply and sourcing partner." }}",
+  "priceRange": "$$",
+  "areaServed": {
+    "@type": "Country",
+    "name": "Indonesia"
+  }
+}
+</script>

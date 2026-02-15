@@ -1,0 +1,33 @@
+{{- $base := site.BaseURL -}}
+{{- $logo := "/images/logo-panenta.png" | absURL -}}
+{{- $url := site.BaseURL -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Panenta Organika",
+  "url": "{{ $url }}",
+  "logo": "{{ $logo }}",
+  "description": "{{ site.Params.description | default "Commodity supply and sourcing partner connecting farmers and industries." }}",
+  "sameAs": [
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "Sales",
+      "availableLanguage": ["id", "en"]
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Panenta Organika",
+  "url": "{{ $url }}",
+  "inLanguage": ["id", "en"]
+}
+</script>
