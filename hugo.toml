@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Panenta Organika'
 theme = "PaperMod"
 defaultContentLanguage = "id"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 canonifyURLs = true
 
