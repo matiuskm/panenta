@@ -120,3 +120,114 @@ other = "Provide structured sourcing & procurement"
 
 [mission_4]
 other = "Support industries with consistent supply"
+
+[hero_img_alt]
+other = "Panenta Organika supply coordination"
+
+[featured_title]
+other = "Featured Products"
+
+[featured_desc]
+other = "Reliable supply and sourcing for business and industry."
+
+[feat_chili_title]
+other = "Chili Supplier"
+
+[feat_chili_desc]
+other = "Stable chili supply with sourcing and delivery coordination."
+
+[feat_chili_alt]
+other = "Chili supplier Indonesia - fresh chili sourcing"
+
+[feat_veg_title]
+other = "Fresh Vegetables Supplier"
+
+[feat_veg_desc]
+other = "Fresh vegetable supply for HoReCa, distributors, and manufacturers."
+
+[feat_veg_alt]
+other = "Fresh vegetables supplier Indonesia - daily supply"
+
+[feat_spice_title]
+other = "Spices & Herbs Supplier"
+
+[feat_spice_desc]
+other = "Fresh, dried, and powdered spices with clear procurement flow."
+
+[feat_spice_alt]
+other = "Spices and herbs supplier Indonesia - fresh and dried spices"
+
+[feat_cocoa_title]
+other = "Cocoa & Coffee Supply"
+
+[feat_cocoa_desc]
+other = "Selected cocoa and coffee supply for industry and B2B needs."
+
+[feat_cocoa_alt]
+other = "Cocoa and coffee supply Indonesia - B2B sourcing"
+
+[learn_more]
+other = "Learn more →"
+
+[seo_block_title]
+other = "Commodity supplier for B2B procurement"
+
+[seo_block_p1]
+other = "Panenta Organika supports B2B procurement with stable sourcing for <strong>chili</strong>, <strong>fresh vegetables</strong>, <strong>spices</strong>, and more. We coordinate supply for distributors, factories, and HoReCa with transparent procurement flow."
+
+[seo_block_p2]
+other = "Send your item list and target volume. Our team will respond with sourcing options and coordination plan."
+
+[activity_title]
+other = "Production & Sourcing Activities"
+
+[activity_desc]
+other = "Real activities from sourcing, sorting, packing, and supply coordination."
+
+[activity_alt_01]
+other = "Sorting fresh chili for B2B supply"
+
+[activity_alt_02]
+other = "Packing vegetables for delivery coordination"
+
+[activity_alt_03]
+other = "Warehouse handling for commodity supply"
+
+[activity_alt_04]
+other = "Team coordination for sourcing and procurement"
+
+[activity_alt_05] 
+other = "Manual processing for spices and vegetables"
+
+[activity_alt_06] 
+other = "Loading commodities for delivery"
+
+[activity_alt_07] 
+other = "Warehouse storage for bulk commodities"
+
+[activity_alt_08] 
+other = "Harvest collection from farmers"
+
+[activity_cap_01] 
+other = "Packing and preparation"
+
+[activity_cap_02] 
+other = "Bulk supply handling"
+
+[activity_cap_03] 
+other = "Sorting and cleaning"
+
+[activity_cap_04] 
+other = "Supplier pickup and staging"
+
+[activity_cap_05] 
+other = "Manual processing"
+
+[activity_cap_06] 
+other = "Loading and dispatch"
+
+[activity_cap_07] 
+other = "Warehouse storage"
+
+[activity_cap_08] 
+other = "Harvest collection"

@@ -22,60 +22,66 @@
     </div>
 
     <div class="hero-image">
-      <img src="/images/hero-supply.webp" alt="Panenta supply" />
+      <img src="/images/hero-supply.webp" alt="{{ i18n "hero_img_alt" }}" loading="eager" />
     </div>
 
   </div>
 </section>
 
 
-<!-- ABOUT -->
-<section class="section">
-  <div class="container about-grid">
-
-    <div>
-      <h2 class="h2">{{ i18n "about_title" }}</h2>
-      <p class="muted">{{ i18n "about_desc" }}</p>
-    </div>
-
-    <div class="about-img">
-      <img src="/images/warehouse.webp" alt="Supply warehouse">
-    </div>
-
-  </div>
-</section>
-
-
-<!-- VISION MISSION -->
+<!-- FEATURED PRODUCTS (PROMINENT: 1,2,3,7) -->
 <section class="section">
   <div class="container">
 
-    <div class="section-head center">
-      <h2 class="h2">{{ i18n "vision_title" }}</h2>
-      <p class="muted">{{ i18n "vision_sub" }}</p>
+    <div class="section-head">
+      <h2 class="h2">{{ i18n "featured_title" }}</h2>
+      <p class="muted">{{ i18n "featured_desc" }}</p>
     </div>
 
-    <div class="vm-grid">
+    <div class="cards grid-4">
 
-      <div class="vm-card">
-        <div class="vm-icon">🌱</div>
-        <h3 class="h3">{{ i18n "vision_label" }}</h3>
-        <p class="muted">{{ i18n "vision_text" }}</p>
-      </div>
+      <article class="card">
+        <img src="/images/commodities/chili.webp" class="card-thumb" alt="{{ i18n "feat_chili_alt" }}" loading="lazy">
+        <h3 class="h3">{{ i18n "feat_chili_title" }}</h3>
+        <p class="muted">{{ i18n "feat_chili_desc" }}</p>
+        <a class="link" href="{{ relLangURL "/supplier-cabai/" }}">{{ i18n "learn_more" }}</a>
+      </article>
 
-      <div class="vm-card">
-        <div class="vm-icon">🤝</div>
-        <h3 class="h3">{{ i18n "mission_label" }}</h3>
+      <article class="card">
+        <img src="/images/commodities/vegetables.webp" class="card-thumb" alt="{{ i18n "feat_veg_alt" }}" loading="lazy">
+        <h3 class="h3">{{ i18n "feat_veg_title" }}</h3>
+        <p class="muted">{{ i18n "feat_veg_desc" }}</p>
+        <a class="link" href="{{ relLangURL "/supplier-sayur/" }}">{{ i18n "learn_more" }}</a>
+      </article>
 
-        <ul class="vm-list">
-          <li>{{ i18n "mission_1" }}</li>
-          <li>{{ i18n "mission_2" }}</li>
-          <li>{{ i18n "mission_3" }}</li>
-          <li>{{ i18n "mission_4" }}</li>
-        </ul>
-      </div>
+      <article class="card">
+        <img src="/images/commodities/spices.webp" class="card-thumb" alt="{{ i18n "feat_spice_alt" }}" loading="lazy">
+        <h3 class="h3">{{ i18n "feat_spice_title" }}</h3>
+        <p class="muted">{{ i18n "feat_spice_desc" }}</p>
+        <a class="link" href="{{ relLangURL "/supplier-rempah/" }}">{{ i18n "learn_more" }}</a>
+      </article>
+
+      <article class="card">
+        <img src="/images/commodities/cocoa.webp" class="card-thumb" alt="{{ i18n "feat_cocoa_alt" }}" loading="lazy">
+        <h3 class="h3">{{ i18n "feat_cocoa_title" }}</h3>
+        <p class="muted">{{ i18n "feat_cocoa_desc" }}</p>
+        <a class="link" href="{{ relLangURL "/cocoa-coffee/" }}">{{ i18n "learn_more" }}</a>
+      </article>
 
     </div>
+
+  </div>
+</section>
+
+
+<!-- SEO PARAGRAPH (ID keywords: supplier cabai/cabe, rempah-rempah, sayuran) -->
+<section class="section section-soft">
+  <div class="container narrow">
+
+    <h2 class="h2">{{ i18n "seo_block_title" }}</h2>
+
+    <p>{{ i18n "seo_block_p1" | safeHTML }}</p>
+    <p>{{ i18n "seo_block_p2" }}</p>
 
   </div>
 </section>
@@ -87,7 +93,7 @@
 
     <div class="section-head">
       <h2 class="h2">{{ i18n "services_title" }}</h2>
-      <p class="muted">Structured sourcing and coordination support.</p>
+      <p class="muted">{{ i18n "section_services_sub" }}</p>
     </div>
 
     <div class="cards flow">
@@ -116,21 +122,59 @@
 </section>
 
 
-<!-- COMMODITIES IMAGE STRIP -->
+<!-- ACTIVITIES GALLERY (PRODUCTION PHOTOS) -->
 <section class="section">
   <div class="container">
+
     <div class="section-head">
-      <h2 class="h2">{{ i18n "commodity_title" }}</h2>
-      <p class="muted">Key commodities we help supply</p>
+      <h2 class="h2">{{ i18n "activity_title" }}</h2>
+      <p class="muted">{{ i18n "activity_desc" }}</p>
     </div>
 
-    <div class="commodity-grid">
-      <img src="/images/commodities/chili.webp">
-      <img src="/images/commodities/onion.webp">
-      <img src="/images/commodities/casava.webp">
-      <img src="/images/commodities/vegetables.webp">
-      <img src="/images/commodities/fruits.webp">
+    <div class="gallery">
+
+      <figure>
+        <img src="/images/activities/activity-01.webp" alt="{{ i18n "activity_alt_01" }}" loading="lazy">
+        <figcaption>{{ i18n "activity_cap_01" }}</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/images/activities/activity-02.webp" alt="{{ i18n "activity_alt_02" }}" loading="lazy">
+        <figcaption>{{ i18n "activity_cap_02" }}</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/images/activities/activity-03.webp" alt="{{ i18n "activity_alt_03" }}" loading="lazy">
+        <figcaption>{{ i18n "activity_cap_03" }}</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/images/activities/activity-04.webp" alt="{{ i18n "activity_alt_04" }}" loading="lazy">
+        <figcaption>{{ i18n "activity_cap_04" }}</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/images/activities/activity-05.webp" alt="{{ i18n "activity_alt_05" }}" loading="lazy">
+        <figcaption>{{ i18n "activity_cap_05" }}</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/images/activities/activity-06.webp" alt="{{ i18n "activity_alt_06" }}" loading="lazy">
+        <figcaption>{{ i18n "activity_cap_06" }}</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/images/activities/activity-07.webp" alt="{{ i18n "activity_alt_07" }}" loading="lazy">
+        <figcaption>{{ i18n "activity_cap_07" }}</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/images/activities/activity-08.webp" alt="{{ i18n "activity_alt_08" }}" loading="lazy">
+        <figcaption>{{ i18n "activity_cap_08" }}</figcaption>
+      </figure>
+
     </div>
+
   </div>
 </section>
 

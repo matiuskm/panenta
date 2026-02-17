@@ -120,3 +120,114 @@ other = "Menyediakan sistem sourcing & procurement terstruktur"
 
 [mission_4]
 other = "Mendukung kebutuhan bahan baku industri secara konsisten"
+
+[hero_img_alt]
+other = "Koordinasi supply Panenta Organika"
+
+[featured_title]
+other = "Produk Unggulan"
+
+[featured_desc]
+other = "Supply dan sourcing yang stabil untuk kebutuhan bisnis dan industri."
+
+[feat_chili_title]
+other = "Supplier Cabai / Cabe"
+
+[feat_chili_desc]
+other = "Pasokan cabai stabil dengan koordinasi sourcing dan pengiriman."
+
+[feat_chili_alt]
+other = "Supplier cabai Indonesia - sourcing cabai segar"
+
+[feat_veg_title]
+other = "Supplier Sayuran Segar"
+
+[feat_veg_desc]
+other = "Pasokan sayur segar untuk HoReCa, distributor, dan manufaktur."
+
+[feat_veg_alt]
+other = "Supplier sayur Indonesia - pasokan sayuran segar"
+
+[feat_spice_title]
+other = "Supplier Rempah-rempah"
+
+[feat_spice_desc]
+other = "Rempah mentah, kering, hingga bubuk dengan alur procurement jelas."
+
+[feat_spice_alt]
+other = "Supplier rempah-rempah Indonesia - rempah segar dan kering"
+
+[feat_cocoa_title]
+other = "Kakao & Kopi"
+
+[feat_cocoa_desc]
+other = "Pasokan kakao dan kopi untuk kebutuhan B2B dan industri."
+
+[feat_cocoa_alt]
+other = "Pasokan kakao dan kopi Indonesia - sourcing B2B"
+
+[learn_more]
+other = "Lihat detail →"
+
+[seo_block_title]
+other = "Supplier komoditas untuk procurement B2B"
+
+[seo_block_p1]
+other = "Panenta Organika mendukung procurement B2B sebagai <strong>supplier cabai</strong> / <strong>supplier cabe</strong>, <strong>supplier sayur</strong>, dan <strong>supplier rempah-rempah</strong> di Indonesia. Kami membantu distributor, pabrik, dan HoReCa dengan alur sourcing dan koordinasi pengiriman yang transparan."
+
+[seo_block_p2]
+other = "Kirim daftar item dan target volume Anda. Tim kami akan merespons dengan opsi sourcing dan rencana koordinasi."
+
+[activity_title]
+other = "Kegiatan Produksi & Sourcing"
+
+[activity_desc]
+other = "Dokumentasi kegiatan sourcing, sortir, packing, dan koordinasi supply."
+
+[activity_alt_01]
+other = "Sortir cabai segar untuk supply B2B"
+
+[activity_alt_02]
+other = "Packing sayuran untuk pengiriman"
+
+[activity_alt_03]
+other = "Aktivitas gudang untuk pasokan komoditas"
+
+[activity_alt_04]
+other = "Koordinasi tim sourcing dan procurement"
+
+[activity_alt_05] 
+other = "Proses manual untuk rempah dan sayuran"
+
+[activity_alt_06] 
+other = "Loading komoditas untuk pengiriman"
+
+[activity_alt_07] 
+other = "Penyimpanan gudang untuk komoditas volume besar"
+
+[activity_alt_08] 
+other = "Pengumpulan hasil panen dari petani"
+
+[activity_cap_01] 
+other = "Persiapan dan packing"
+
+[activity_cap_02] 
+other = "Handling supply volume besar"
+
+[activity_cap_03] 
+other = "Sortir dan pembersihan"
+
+[activity_cap_04] 
+other = "Pickup supplier dan staging"
+
+[activity_cap_05] 
+other = "Proses manual"
+
+[activity_cap_06] 
+other = "Loading dan pengiriman"
+
+[activity_cap_07] 
+other = "Penyimpanan gudang"
+
+[activity_cap_08] 
+other = "Pengumpulan panen"
