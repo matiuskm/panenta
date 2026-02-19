@@ -6,6 +6,7 @@ defaultContentLanguage = "id"
 defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
 canonifyURLs = true
+isProduction = true
 
 [params]
 description = "Panenta Organika is a commodity supply and sourcing partner connecting farmers, suppliers, and industries."
