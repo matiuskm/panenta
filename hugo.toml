@@ -32,3 +32,5 @@ keywords = ["commodity supply", "fresh produce", "sourcing", "procurement", "agr
     languageName = "EN"
     weight = 2
     contentDir = "content/en"
+  
+[taxonomies]
