@@ -175,6 +175,7 @@ a:hover{ text-decoration: none; }
   height: 3px !important;
   margin: 0 !important;        /* jangan pakai margin vertikal lama */
   border-radius: 999px !important;
+  background: rgba(15,23,42,.78) !important;
 }
 
 
@@ -405,6 +406,10 @@ a:hover{ text-decoration: none; }
 
   .icon-btn{ display: inline-flex !important; }
 
+  .icon-btn:active{
+    transform: scale(.98);
+  }
+
   .site-footer{
     margin-top: 18px !important;
   }
@@ -431,7 +436,6 @@ a:hover{ text-decoration: none; }
 
   /* header: bikin rapi */
   .nav{ display: none; }
-  .icon-btn{ display: inline-flex; }
 
   .header-inner{
     gap: 10px;
@@ -753,12 +757,6 @@ a:hover{ text-decoration: none; }
 
 .container.narrow{
   max-width: 860px;
-}
-
-.cards.grid-4{
-  display:grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap:18px;
 }
 
 .card-thumb{
